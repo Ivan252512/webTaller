@@ -1,7 +1,7 @@
 body {
     font-size: 20px;
     color: #000000;
-    font-family: Lora, 'Times New Roman', serif
+    font-family: 'Times New Roman', serif
 }
 
 * {
@@ -9,18 +9,25 @@ body {
 }
 
 /* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+#caja_izq {
+    width: 100%;
+    color:rgb(0, 0, 0);
 }
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+#caja_der {
+    width: 50%;
+    float: right;
+    border-left: solid 5px rgb(255, 255, 255);
+}
+.columna_izquierda {
+    width: 90%;
+    float: left;
+    position: relative;
+    margin-left: -100%;
+}
+.columna_derecha {
+    width: 90%;
+    float: right;
+    margin-right:5%;
 }
 
 p {
@@ -40,8 +47,9 @@ h6 {
     color: #000000;
     font-weight: 600;
     margin: 10px 0 10px
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
+
 a {
     color: #212529;
     -webkit-transition: all .2s;
@@ -96,9 +104,9 @@ img::-moz-selection {
 }
 #mainNav {
     position: absolute;
-    border-bottom: 1px solid #e9ecef;
+    border-bottom: 1px solid #ffffff;
     background-color: #fff;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family:  'Helvetica Neue', Helvetica
 }
 #mainNav .navbar-brand {
     font-size: 26px;
@@ -129,15 +137,15 @@ img::-moz-selection {
     }
     #mainNav .navbar-brand:focus,
     #mainNav .navbar-brand:hover {
-        color: rgba(84, 136, 204, 1)
-    }
-    #mainNav .navbar-nav>li.nav-item>a {
-        padding: 10px 20px;
         color: rgb(0, 0, 0)
+    }
+    #mainNav .navbar-nav>li.nav-item>a {204
+        padding: 10px 20px;
+        color:rgb(0, 0, 0)
     }
     #mainNav .navbar-nav>li.nav-item>a:focus,
     #mainNav .navbar-nav>li.nav-item>a:hover {
-        color: rgba(84, 136, 204, 1)
+        color: rgb(0, 0, 0)
     }
 }
 @media only screen and (min-width: 992px) {
@@ -184,16 +192,18 @@ img::-moz-selection {
     }
 }
 header.masthead {
-    margin-bottom: 50px;
-    background: no-repeat center center;
+    background: no-repeat top;
     background-color: #c6cbd1;
     background-attachment: scroll;
     position: relative;
+    width: 100%;
+    height: 100%;
     -webkit-background-size: covermast;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover
+    background-size: cover;
 }
+
 header.masthead .overlay {
     position: absolute;
     top: 0;
@@ -227,13 +237,13 @@ header.masthead .site-heading h1 {
 }
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 300;
     line-height: 1.1;
     display: block;
     margin: 10px 0 0;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 @media only screen and (min-width: 768px) {
     header.masthead .page-heading h1,
@@ -253,7 +263,7 @@ header.masthead .post-heading .subheading {
     font-size: 24px;
     font-weight: 600;
     margin: 10px 0 30px;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 header.masthead .post-heading .meta {
     font-size: 20px;
@@ -410,7 +420,7 @@ footer .copyright {
 }
 .btn-lg {
     font-size: 16px;
-    padding:25 {<h2>Hacia una comunidad resiliente: Programa de educación de amenazas naturales en la Ciudad de México</h2>
+    padding:25 {
         font-size: 16px;
         padding: 25px 35px
     }

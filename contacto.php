@@ -1,47 +1,49 @@
 <?php include 'base.php' ?>
-	<html lang="es">
+<html lang="es">
 
-	<?php startblock('title') ?>
-		Participación
-	<?php endblock() ?>
-	
-<?php startblock('principal') ?>
-	<!-- Cabecera -->
-	<header class="masthead" style="background-image: url('img/cu.JPG')">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-10 mx-auto">
-					<div class="site-heading">
-						<h2><big>Participa</big></h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+  <?php startblock('title') ?>
+    Educación
+  <?php endblock() ?>
+
+  <?php startblock('principal') ?>
 
 
-	<!-- Contenido Principal -->
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-18">
-				<h1 class="section-heading">Cuéntanos tus ideas.</h1>
-				<hr>
+    <!-- Contenido Principal -->
 
-				<p>
-					conactos, etc
-				Descripción del proyecto, Descripción del proyecto, Descripción del proyecto, Descripción del proyecto, 
-          Descripción del proyecto, Descripción del proyecto, Descripción del proyecto, Descripción del proyecto, 
-          Descripción del proyecto, Descripción del proyecto, Descripción del proyecto, Descripción del proyecto, 
-          Descripción del proyecto, Descripción del proyecto, Descripción del proyecto, Descripción del proyecto, 
-          Descripción del proyecto, Descripción del proyecto, Descripción del proyecto, Descripción del proyecto, 
+    <hr>
 
-				<hr>
+    <!-- Contenido Principal -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-18">
+          <h1 class="section-heading">¿Tienes alguna propuesta o sugerencia?</h1>
+          <p align = "justify">
+          Puedes consultar nuestras redes sociales o mandar un correo a ivanpineda@ciencias.unam.mx.
+          </p>
 
-				</div>
-			</div>
-		</div>
-<?php endblock() ?>
+      <div class="container">
+      <hr>
+        <!-- Dependencias -->
+        <div class="row project">
+          <div class="col-lg-3 col-md-4 offset-lg-1">
+            <img class="img-fluid" src="img/prome.JPG" alt="">
+          </div>
+          <div class="col-lg-7 col-md-8">
+            <h2 class="section-heading title">Facultad de Ciencias</h2>
+            <p>Facultad de Ciencias, UNAM
+              Av. Universidad 3000, Circuito Exterior S/N
+              Delegación Coyoacán, C.P. 04510
+              Ciudad Universitaria, D.F.
+              México</p>
+            <p><a href="http://www.fciencias.unam.mx/contacto">Más información</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+  <?php endblock() ?>
 
-	</html>
+  <footer>
+  </footer>
+
+</html>

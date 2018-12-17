@@ -75,7 +75,12 @@
           </ul>
         </div>
       </div>
-    </nav>
+      <li>
+        <a class="fa fa-instagram " href="https://www.instagram.com"></a>
+        <a class="fa fa-facebook " href="https://www.facebook.com"></a>
+        <a class="fa fa-twitter " href="https://www.twitter.com"></a>
+      </li>
+      </nav>
     
     <!-- Contenido principal -->
     <?php startblock('principal') ?>
