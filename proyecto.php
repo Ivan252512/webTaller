@@ -17,14 +17,14 @@
       <div class="row">
         <div class="col-lg-12 col-md-18">
           <h1 class="section-heading">¿Qué es lo que queremos cambiar?</h1>
-          <p align = "justify">
+          <p   >
           Gran parte de la Ciudad de México está expuesta a diversas amenazas (caída de ceniza, deslizamientos, sismos, inundaciones
           y la caída de un asteroide es un peligro poco probable pero presente).
           Para <b>lograr que la población sea menos vulnerable</b> a estas amenazas y por lo tanto disminuir el riesgo es necesario emprender
           labores de divulgación de medidas de seguridad para implementarse; antes, durante y después de los eventos que implican 
           amenazas.    
 
-          <p align = "justify">
+          <p   >
 
           <p> 
 
@@ -33,7 +33,7 @@
           </p>
 
           <h1 class="section-heading">¿Qué proponemos?</h1>
-          <p align = "justify">
+          <p   >
           Una comunicación efectiva salva vidas, una población preparada es más resiliente. La información debe ser directa y lo aprendido, grabarse para siempre. La comunicación puede ser por la educación, pero el educador y el educando deben ser iguales, por lo tanto,
 la información fluye y se retroalimenta.
 Los conceptos no se graban con dictados y repeticiones,
@@ -42,7 +42,7 @@ los conceptos se tocan, se crean y se deconstruyen
 
           </p>
 
-          <p align = "justify">
+          <p   >
 
           Lo que proponemos es una serie de actividades que impliquen que el receptor de información
           al sentirse más cómodo capte y transmita el mensaje (véase la parte de proyectos). Así mismo, las

@@ -28,7 +28,7 @@
         <h1 class="section-heading">El equipo</h1>
         <hr>
 
-        <p align="justify">
+        <p  >
           Nuestro grupo está formado por estudiantes y profesoras de la licenciatura en Ciencias de la Tierra de la UNAM.
           Las áreas en las que más participamos son: Ciencias de la Tierra Sólida, Ciencias Ambientales y Ciencias Espaciales, siendo estas 
           las orientaciones a las que pertenecen los alumnos de nuestro equipo.

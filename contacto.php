@@ -17,7 +17,7 @@
       <div class="row">
         <div class="col-lg-12 col-md-18">
           <h1 class="section-heading">¿Tienes alguna propuesta o sugerencia?</h1>
-          <p align = "justify">
+          <p   >
           Puedes consultar nuestras redes sociales o mandar un correo a ivanpineda@ciencias.unam.mx.
           </p>
 

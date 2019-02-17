@@ -30,7 +30,7 @@
 
             <center>
             <b>Incidencia por mensaje en el tendedero de propuestas</b>
-            <img src="img/graften.png" alt="">
+            <img src="img/graften.png" alt="" class="img-fluid"> 
             </center>
           
           <br>
@@ -58,7 +58,6 @@
           </div>
       </div>
     </div>
-
     
   
     <hr>
